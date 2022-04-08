@@ -1,8 +1,8 @@
 import { h } from 'vue';
 
-import icons from '../partials/icons';
+import icons from '../src/partials/icons';
 
-import { Data } from '../types';
+import { Data } from '../src/types';
 
 const Icon = (props: Data) => {
   const iconName = props.name;

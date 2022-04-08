@@ -2,7 +2,7 @@ import { inject, h } from 'vue';
 
 import Icon from './Icon';
 
-import { CarouselNav } from '../types';
+import { CarouselNav } from '../src/types';
 
 const Navigation = (props: any, { slots, attrs }: any) => {
   const { next: slotNext, prev: slotPrev } = slots;
@@ -10,7 +10,7 @@ const Navigation = (props: any, { slots, attrs }: any) => {
 
   const prevButton = h(
     'button',
-    { type: 'button', class: ['carousel__prev', attrs?.class] , onClick: nav.prev },
+    { type: 'button', class: ['carousel__prev', attrs?.class], onClick: nav.prev },
     slotPrev?.() || h(Icon, { name: 'arrowLeft' })
   );
   const nextButton = h(

@@ -20,7 +20,7 @@ import {
   Ref,
   CarouselNav,
   ElementStyleObject,
-} from '../types';
+} from '../src/types';
 
 export default defineComponent({
   name: 'Carousel',

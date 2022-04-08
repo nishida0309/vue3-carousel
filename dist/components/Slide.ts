@@ -1,8 +1,8 @@
 import { defineComponent, inject, ref, computed, watchEffect, h, reactive } from 'vue';
 
-import { Counter } from '../partials/counter';
+import { Counter } from '../src/partials/counter';
 
-import { SetupContext, CarouselConfig, Ref, ElementStyleObject } from '../types';
+import { SetupContext, CarouselConfig, Ref, ElementStyleObject } from '../src/types';
 
 export default defineComponent({
   name: 'CarouselSlide',

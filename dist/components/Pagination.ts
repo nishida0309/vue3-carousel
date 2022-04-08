@@ -1,6 +1,6 @@
 import { inject, ref, h } from 'vue';
 
-import { CarouselNav, VNode } from '../types';
+import { CarouselNav, VNode } from '../src/types';
 
 const Pagination = () => {
   const slidesCount = inject('slidesCount', ref(1));
