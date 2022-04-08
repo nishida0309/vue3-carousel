@@ -8,11 +8,13 @@
   justify-content: center;
   align-items: center;
 }
+
 .carousel__pagination {
   display: flex;
   justify-content: center;
   list-style: none;
 }
+
 .carousel__pagination-button {
   margin: var(--vc-pgn-margin);
   width: var(--vc-pgn-width);
@@ -20,12 +22,13 @@
   border-radius: var(--vc-pgn-height);
   border: 0;
   cursor: pointer;
-  background-color: var(--vc-pgn-bg-color);
+  background-color: white;
 }
 
 .carousel__pagination-button--active {
-  background-color: var(--vc-pgn-active-color);
+  background-color: gray;
 }
+
 :root {
   /* Color */
   --vc-clr-primary: #642afb;
@@ -48,6 +51,7 @@
   --vc-pgn-background-color: var(--vc-clr-secondary);
   --vc-pgn-active-color: var(--vc-clr-primary);
 }
+
 .carousel {
   position: relative;
   text-align: center;
@@ -68,6 +72,7 @@
 .carousel__viewport {
   overflow: hidden;
 }
+
 .carousel__icon {
   width: var(--vc-icn-width);
   height: var(--vc-icn-width);
@@ -75,6 +80,7 @@
   border: 2px solid;
   border-radius: 50%;
 }
+
 .carousel__prev,
 .carousel__next {
   background-color: var(--vc-nav-bg-color);
