@@ -1,6 +1,6 @@
 /**
  * Vue 3 Carousel 0.1.27
- * (c) 2021
+ * (c) 2022
  * @license MIT
  */
 import { defineComponent, ref, reactive, watch, provide, onMounted, computed, watchEffect, h, inject } from 'vue';

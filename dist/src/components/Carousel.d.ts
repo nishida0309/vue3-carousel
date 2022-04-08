@@ -63,12 +63,12 @@ declare const _default: import("vue").DefineComponent<{
     mouseDrag?: unknown;
     touchDrag?: unknown;
 } & {
+    settings: Record<string, any>;
     itemsToShow: number;
     itemsToScroll: number;
     wrapAround: boolean;
     snapAlign: string;
     transition: number;
-    settings: Record<string, any>;
     breakpoints: Record<string, any>;
     autoplay: number;
     pauseAutoplayOnHover: boolean;
@@ -76,13 +76,13 @@ declare const _default: import("vue").DefineComponent<{
     touchDrag: boolean;
 } & {
     modelValue?: number | undefined;
-}>, {
+}> & ({} | {}), {
+    settings: Record<string, any>;
     itemsToShow: number;
     itemsToScroll: number;
     wrapAround: boolean;
     snapAlign: string;
     transition: number;
-    settings: Record<string, any>;
     breakpoints: Record<string, any>;
     autoplay: number;
     pauseAutoplayOnHover: boolean;

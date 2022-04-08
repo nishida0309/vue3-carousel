@@ -1,13 +1,13 @@
 /**
  * Vue 3 Carousel 0.1.27
- * (c) 2021
+ * (c) 2022
  * @license MIT
  */
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('vue')) :
   typeof define === 'function' && define.amd ? define(['exports', 'vue'], factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.VueCarousel = {}, global.Vue));
-})(this, (function (exports, vue) { 'use strict';
+}(this, (function (exports, vue) { 'use strict';
 
   function counterFactory() {
       return new Proxy({ value: 0, read: 0 }, {
@@ -541,4 +541,4 @@
 
   Object.defineProperty(exports, '__esModule', { value: true });
 
-}));
+})));

@@ -9,7 +9,7 @@ declare const _default: import("vue").DefineComponent<{
     index?: unknown;
 } & {
     index: number;
-} & {}>, {
+} & {}> & ({} | {}), {
     index: number;
 }>;
 export default _default;
