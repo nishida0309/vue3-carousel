@@ -10,7 +10,7 @@ import {
   watch,
 } from 'vue';
 
-import counterFactory, { Counter } from '../partials/counter.d';
+import counterFactory, { Counter } from '../partials/counter';
 import { debounce, throttle, getSlides } from '../partials/utils.d';
 
 import {
