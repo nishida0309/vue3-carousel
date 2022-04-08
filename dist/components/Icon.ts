@@ -7,7 +7,7 @@ import { Data } from '../src/types';
 const Icon = (props: Data) => {
   const iconName = props.name;
   if (!iconName || typeof iconName !== 'string') {
-    return;
+    return 'a';
   }
   const path = icons[iconName];
   const pathEl = h('path', { d: path });
