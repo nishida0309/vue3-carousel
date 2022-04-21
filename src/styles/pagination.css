@@ -5,9 +5,9 @@
 }
 
 .carousel__pagination-button {
-  margin: 2px;
-  width: 5px;
-  height: 5px;
+  margin: 4px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   border: 0;
   cursor: pointer;
