@@ -14,7 +14,7 @@ const Pagination = () => {
 
   const children: Array<VNode> = [];
   for (let slide = 0; slide < paginationCount.value; slide++) {
-    const button = h('button', {
+    const button = h('div', {
       type: 'button',
       class: {
         'carousel__pagination-button': true,
