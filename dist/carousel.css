@@ -20,6 +20,36 @@
   --vc-pgn-background-color: var(--vc-clr-secondary);
   --vc-pgn-active-color: var(--vc-clr-primary);
 }
+.carousel {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.carousel * {
+  box-sizing: border-box;
+}
+
+.carousel__track {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.carousel__viewport {
+  overflow: hidden;
+}
+.carousel__slide {
+  scroll-snap-stop: auto;
+  flex-shrink: 0;
+  margin: 0;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .carousel__pagination {
   display: flex;
   justify-content: center;
@@ -38,15 +68,12 @@
 .carousel__pagination-button--active {
   background-color: var(--vc-pgn-active-color);
 }
-.carousel__slide {
-  scroll-snap-stop: auto;
-  flex-shrink: 0;
-  margin: 0;
-  position: relative;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.carousel__icon {
+  width: var(--vc-icn-width);
+  height: var(--vc-icn-width);
+  fill: currentColor;
+  border: 2px solid;
+  border-radius: 50%;
 }
 .carousel__prev,
 .carousel__next {
@@ -76,31 +103,4 @@
   top: 50%;
   right: 0;
   transform: translate(50%, -50%);
-}
-.carousel__icon {
-  width: var(--vc-icn-width);
-  height: var(--vc-icn-width);
-  fill: currentColor;
-  border: 2px solid;
-  border-radius: 50%;
-}
-.carousel {
-  position: relative;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-.carousel * {
-  box-sizing: border-box;
-}
-
-.carousel__track {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-.carousel__viewport {
-  overflow: hidden;
 }
