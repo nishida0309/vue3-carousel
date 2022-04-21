@@ -3,16 +3,17 @@
   justify-content: center;
   list-style: none;
 }
+
 .carousel__pagination-button {
-  margin: var(--vc-pgn-margin);
-  width: var(--vc-pgn-width);
-  height: var(--vc-pgn-height);
-  border-radius: var(--vc-pgn-height);
+  margin: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
   border: 0;
   cursor: pointer;
-  background-color: var(--vc-pgn-bg-color);
+  background-color: gray;
 }
 
 .carousel__pagination-button--active {
-  background-color: var(--vc-pgn-active-color);
+  background-color: white;
 }

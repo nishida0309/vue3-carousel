@@ -519,7 +519,7 @@
       }
       const children = [];
       for (let slide = 0; slide < paginationCount.value; slide++) {
-          const button = vue.h('button', {
+          const button = vue.h('div', {
               type: 'button',
               class: {
                   'carousel__pagination-button': true,
